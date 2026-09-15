@@ -34,30 +34,6 @@ Your solution must:
 - Maintain referential integrity.
 - Insert sample data.
 
-## Suggested 3NF Design
-
-    Department
-    ------------------------------
-    DepartmentID PRIMARY KEY
-    DepartmentName
-
-    Faculty
-    ------------------------------
-    FacultyID PRIMARY KEY
-    FacultyName
-    DepartmentID FOREIGN KEY
-
-    Course
-    ------------------------------
-    CourseID PRIMARY KEY
-    CourseName
-    FacultyID FOREIGN KEY
-
-    Student
-    ------------------------------
-    StudentID PRIMARY KEY
-    StudentName
-    CourseID FOREIGN KEY
 
 ## How to Submit
 
