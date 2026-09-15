@@ -23,27 +23,6 @@ Normalize the given Student table up to Third Normal Form (3NF) and implement th
 6. Define appropriate primary keys and foreign keys.
 7. Insert sample data.
 
-## Expected 3NF Structure
-
-A suitable decomposition is:
-
-    Student(StudentID, StudentName, CourseID)
-    Course(CourseID, CourseName, FacultyID)
-    Faculty(FacultyID, FacultyName, DepartmentID)
-    Department(DepartmentID, DepartmentName)
-
-Students may use different valid names for surrogate keys, provided the functional dependencies, primary keys, foreign keys, and 3NF principles are correctly implemented.
-
-## Files
-
-| File | Purpose |
-|---|---|
-| `README.md` | Practical description |
-| `STARTUP.md` | Student instructions |
-| `schema.sql` | Original table and sample data |
-| `solution.sql` | Student's 3NF implementation |
-| `test.sh` | Automated test script |
-| `.github/workflows/autograding.yml` | GitHub Actions workflow |
 
 ## Submission
 
